@@ -1,0 +1,39 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "HTTPS=true next dev -p 3005",
+    "build": "next build",
+    "start": "next start",
+    "prod": "next export"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@hapi/iron": "6.0.0",
+    "@hookform/resolvers": "^2.8.0",
+    "@metamask/onboarding": "^1.0.1",
+    "@mui/icons-material": "^5.0.1",
+    "@mui/lab": "^5.0.0-alpha.48",
+    "@mui/material": "^5.0.1",
+    "axios": "^0.21.4",
+    "cookie": "^0.4.1",
+    "next": "latest",
+    "next-connect": "0.8.1",
+    "nextjs-cors": "^2.0.0",
+    "passport": "0.4.1",
+    "passport-local": "1.0.0",
+    "react": "^17.0.2",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.15.3",
+    "react-json-view": "^1.21.3",
+    "react-notifications": "^1.7.2",
+    "react-swipeable-views": "^0.14.0",
+    "styled-components": "^5.3.1",
+    "swr": "^0.5.5",
+    "uuid": "8.3.1",
+    "yup": "^0.32.9"
+  }
+}
